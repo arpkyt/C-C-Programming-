@@ -1,0 +1,8 @@
+while (condition)
+{
+    statements;
+
+    :
+
+}
+statements;
