@@ -17,3 +17,6 @@ int main()
 else
 tryNum = tryNum+1;
     } while (tryNum <= 5);
+
+    return 0;
+}
