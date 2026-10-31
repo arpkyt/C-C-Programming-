@@ -10,15 +10,10 @@ int main()
         cin >> c;
         if (c == 'a')
         {
-            cout << "You guessed it in " << tryNum << " tries!" << endl;
-            break;
-        }
-        else
-        {
-            cout << "Wrong guess, try again." << endl;
-            tryNum++;
-        }
-    }
-
+            cout << "You guessed it in ";
+            tryNum = 6;
 
 }
+else
+tryNum = tryNum+1;
+    } while (tryNum <= 5);
